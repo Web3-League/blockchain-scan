@@ -56,7 +56,7 @@ nanopy-scan --network turbo-testnet
 | `/api/validators` | Validators |
 """,
     long_description_content_type="text/markdown",
-    url="https://github.com/nanopy/nanopy-scan",
+    url="https://github.com/Web3-League/blockchain-scan",
     packages=find_packages(),
     python_requires=">=3.8",
     install_requires=[
