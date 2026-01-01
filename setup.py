@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="nanopy-scan",
-    version="3.0.1",
+    version="3.0.3",
     author="NanoPy Team",
     author_email="dev@nanopy.chain",
     description="Full-featured blockchain explorer for NanoPy Network with SQLite indexing",

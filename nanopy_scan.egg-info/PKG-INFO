@@ -1,8 +1,8 @@
 Metadata-Version: 2.4
 Name: nanopy-scan
-Version: 3.0.1
+Version: 3.0.3
 Summary: Full-featured blockchain explorer for NanoPy Network with SQLite indexing
-Home-page: https://github.com/nanopy/nanopy-scan
+Home-page: https://github.com/Web3-League/blockchain-scan
 Author: NanoPy Team
 Author-email: dev@nanopy.chain
 Keywords: blockchain explorer nanopy ethereum sqlite indexer

@@ -1,4 +1,5 @@
 MANIFEST.in
+README.md
 setup.py
 nanopy_scan/__init__.py
 nanopy_scan/__main__.py

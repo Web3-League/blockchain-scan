@@ -25,15 +25,22 @@ NETWORKS: Dict[int, Network] = {
     7770: Network(
         chain_id=7770,
         name="NanoPy Mainnet",
-        rpc="http://51.68.125.99:8545",
+        rpc="https://rpc.nanopy.eu",
         db="nanopy_scan.db",
         symbol="NPY",
     ),
     77700: Network(
         chain_id=77700,
         name="NanoPy Testnet",
-        rpc="http://51.68.125.99:8546",
+        rpc="https://rpc.nanopy.eu",
         db="testnet_scan.db",
+        symbol="NPY",
+    ),
+    77777: Network(
+        chain_id=77777,
+        name="Pyralis Testnet",
+        rpc="https://rpc.nanopy.eu",
+        db="pyralis_scan.db",
         symbol="NPY",
     ),
 
@@ -41,7 +48,7 @@ NETWORKS: Dict[int, Network] = {
     77702: Network(
         chain_id=77702,
         name="NanoPy Turbo L2",
-        rpc="http://51.68.125.99:8547",
+        rpc="https://l2.nanopy.eu",
         db="turbo_scan.db",
         symbol="NPY",
         is_l2=True,
@@ -50,20 +57,11 @@ NETWORKS: Dict[int, Network] = {
     777702: Network(
         chain_id=777702,
         name="NanoPy Turbo L2 Testnet",
-        rpc="http://51.68.125.99:8548",
+        rpc="https://l2.nanopy.eu",
         db="turbo_testnet_scan.db",
         symbol="NPY",
         is_l2=True,
         l1_chain_id=77700,
-    ),
-
-    # Legacy
-    77777: Network(
-        chain_id=77777,
-        name="Pyralis Testnet",
-        rpc="http://127.0.0.1:8545",
-        db="pyralis_scan.db",
-        symbol="NPY",
     ),
 }
 
